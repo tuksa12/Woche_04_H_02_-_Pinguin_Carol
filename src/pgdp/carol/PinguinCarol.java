@@ -47,8 +47,7 @@ public static void main(String[] args) {
 				if (command == 'e'){//End
 					break; }
 				else if (command == 'a'){//Display
-					printPlayground(Spielfeld);
-					write("Position: ("+pos_x+","+pos_y+")\nBlickrichtung: "+blick+"\nEisblöcken: "+eis);
+					printPlayground(Spielfeld,pos_x,pos_y,blick,eis);
 				}
 				else if (command == 'r'){//Right
 					blick--;
